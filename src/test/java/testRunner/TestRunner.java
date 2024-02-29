@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = { "target/rerun.txt" },
+		features = { "@target/rerun.txt" },
 		// features = { ".//Features/CourseraValidation.feature",
 		// ".//Features/WebDevelopmentCourses.feature" },
 		// features= {".//Features/InputDatatoFeature.feature"},
